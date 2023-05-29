@@ -1,6 +1,6 @@
 name: CI/CD API_Yamdb
 
-on:[push]
+on: [push]
 
 jobs:
   tests:
