@@ -15,7 +15,7 @@ services:
       - .env
 
   web:
-    image: miha1is/api_yamdb:latest
+    image: solydus/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
