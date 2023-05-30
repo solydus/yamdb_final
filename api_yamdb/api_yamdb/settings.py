@@ -4,8 +4,7 @@ from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
-
+SECRET_KEY = "SUP3R-S3CR3T-K3Y-F0R-MY-PR0J3CT"
 
 DEBUG = False
 
