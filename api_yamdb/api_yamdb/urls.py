@@ -9,7 +9,7 @@ urlpatterns = [
     path('api/', include('api.urls')),
     path('', include('users.urls')),
     path(
-        'redoc/',
+        'redosss/',
         TemplateView.as_view(template_name='redoc.html'),
         name='redoc'
     ),
