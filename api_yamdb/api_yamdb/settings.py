@@ -3,8 +3,9 @@ from pathlib import Path
 from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+SECRET_KEY = os.getenv('SECRET_KEY', default='top_secret')
 
-SECRET_KEY = "SUP3R-S3CR3T-K3Y-F0R-MY-PR0J3CT"
+#SECRET_KEY = "SUP3R-S3CR3T-K3Y-F0R-MY-PR0J3CT"
 
 DEBUG = False
 
